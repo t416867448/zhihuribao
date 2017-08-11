@@ -1,0 +1,198 @@
+/*公共重置样式开始*/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0
+}
+
+html {
+  font-size: 1rem
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+q:before,
+q:after {
+  content: ''
+}
+
+object,
+embed {
+  vertical-align: top
+}
+
+hr,
+legend {
+  display: none
+}
+
+img,
+abbr,
+acronym,
+fieldset {
+  border: 0
+}
+
+ul li {
+  list-style-type: none
+}
+
+a,
+label {
+  cursor: pointer
+}
+
+img {
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  text-decoration: none;
+  outline: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400
+}
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: .1px;
+  font-size: .1em;
+  line-height: 0;
+  clear: both
+}
+
+.clearfix {
+  *zoom: 1
+}
+
+input,
+textarea,
+select {
+  outline: 0;
+  border: 1px solid #ccc
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #ccc
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ccc
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-appearance: none;
+}
+
+button {
+  cursor: pointer;
+  color: #666
+}
+
+textarea {
+  resize: none;
+  outline: 0;
+  overflow: hidden;
+  padding: 5px
+}
+
+select {
+  outline: 0
+}
+
+img {
+  max-width: 100%
+}
+
+input,
+a {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-appearance: none;
+}
+
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  background: #f5f6fa;
+  color: #333;
+  font-family: Helvetica, HelveticaNeue, Arial, Verdana, Sans-serif;
+  -webkit-text-size-adjust: 100%!important;
+  font-size: 10px;
+}
+
+a {
+  color: #333;
+}
+
+
+/*公共重置样式结束*/
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comments:before {
+  content: "\e69b";
+}
+
+.icon-dianzan:before {
+  content: "\e62e";
+}
